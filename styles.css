@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.image-container img {
+    height: 200px;
+    object-fit: contain;
+    background-color: transparent;
+    padding-left: 2px;
+}
+
+.image-container img.double-height {
+    height: 350px;
+}
