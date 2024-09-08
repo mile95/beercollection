@@ -17,8 +17,18 @@ body {
     object-fit: contain;
     background-color: transparent;
     padding-left: 2px;
+    cursor: pointer;
+
+    transform: scale(1);
+    -webkit-transition: transform 0.4s ease-in-out;
 }
 
 .image-container img.double-height {
     height: 350px;
 }
+
+.image-container img:hover {
+    transform: scale(1.4);
+    position: relative;
+    z-index: 1;
+ }
