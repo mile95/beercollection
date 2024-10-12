@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         container.innerHTML = '';
         images.forEach(img => container.appendChild(img));
+
+        const imageCountHeader = document.getElementById('headercount');
+        imageCountHeader.textContent = `Collected: ${images.length}`;
     }
 
     shuffleImages();
