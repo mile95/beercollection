@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
         container.innerHTML = '';
         images.forEach(img => container.appendChild(img));
 
-        const imageCountHeader = document.getElementById('headercount');
-        imageCountHeader.textContent = `collected: ${images.length}`;
+        const imageCountHeader = document.getElementById('headerCount');
+        imageCountHeader.textContent = `${images.length} beers collected`;
     }
 
     shuffleImages();
