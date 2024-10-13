@@ -1,4 +1,4 @@
-# Digial twin of my beer collection
+# Digital twin of my beer collection
 
 fredrikmile.com/beercollection
 
