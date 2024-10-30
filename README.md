@@ -2,3 +2,8 @@
 
 fredrikmile.com/beercollection
 
+
+## Running locally
+
+python3 server.py
+
