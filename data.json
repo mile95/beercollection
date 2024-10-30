@@ -1,0 +1,92 @@
+[
+  {
+    "name": "79",
+    "brewery": "Sibbarps Husbryggeri",
+    "team": "Malmö FF",
+    "extra": "TBA",
+    "references": "https://mffsupport.com/historien-om-79/",
+    "image": "assets/malmo_1.png",
+    "class": "large"
+  },
+  {
+    "name": "Juventus Beer",
+    "brewery": "El Original Srl.",
+    "team": "Juventus",
+    "extra": "TBA",
+    "references": "https://juventusbeer.com/",
+    "image": "assets/juventus_1.png",
+    "class": "small"
+  },
+  {
+    "name": "Napoli Beer",
+    "brewery": "TBA",
+    "team": "SSC Napoli",
+    "extra": "TBA",
+    "references": "TBA",
+    "image": "assets/napoli_1.png",
+    "class": "small"
+  },
+  {
+    "name": "Hisingen Pilsner",
+    "brewery": "Billdale",
+    "team": "BK Häcken",
+    "extra": "TBA",
+    "references": "TBA",
+    "image": "assets/hacken_1.png",
+    "class": "small"
+  },
+  {
+    "name": "GBG STATE OF MIND",
+    "brewery": "TBA",
+    "team": "IFK Göteborg",
+    "extra": "TBA",
+    "references": "TBA",
+    "image": "assets/goteborg_4.png",
+    "class": "small"
+  },
+  {
+    "name": "HELA STADENS LAGER",
+    "brewery": "TBA",
+    "team": "IFK Göteborg",
+    "extra": "TBA",
+    "references": "TBA",
+    "image": "assets/goteborg_3.png",
+    "class": "small"
+  },
+  {
+    "name": "ÄNGLA-PILS",
+    "brewery": "SPIKE",
+    "team": "IFK Göteborg",
+    "extra": "TBA",
+    "references": "TBA",
+    "image": "assets/goteborg_2.png",
+    "class": "small"
+  },
+  {
+    "name": "GÖTTÄNNA",
+    "brewery": "TBA",
+    "team": "IFK Göteborg",
+    "extra": "TBA",
+    "references": "TBA",
+    "image": "assets/goteborg_1.png",
+    "class": "small"
+  },
+  {
+    "name": "GUNNERS ALE",
+    "brewery": "TBA",
+    "team": "FC Arsenal",
+    "extra": "TBA",
+    "references": "TBA",
+    "image": "assets/arsenal_1.png",
+    "class": "large"
+  },
+  {
+    "name": "TBD",
+    "brewery": "TBA",
+    "team": "GAIS",
+    "extra": "TBA",
+    "references": "TBA",
+    "image": "assets/gais_1.png",
+    "class": "small"
+  }
+]
