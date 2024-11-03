@@ -23,6 +23,7 @@ body {
     border-top: 1px solid black;
     border-right: 1px solid black;
     margin: 1rem;
+    margin-bottom: 10rem;
 }
 
 .table-container > span {
@@ -30,6 +31,7 @@ body {
     border-bottom: 1px solid black;
     padding-left: 10px;
     padding-top: 10px;
+    font-size: 1rem;
 }
 
 .table-container > img {
@@ -52,11 +54,38 @@ body {
 }
 
 .table-container .table-header {
-    font-size:x-large;
+    font-size: x-large;
     padding-bottom: 2rem;
     border-bottom: 2px solid black;
 }
 
 .large-image {
     height: 150px !important;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .table-container {
+        grid-template-columns: repeat(6, 1fr); 
+    }
+    
+    .table-container > span, .table-container > img {
+        padding: 0.2rem; 
+        font-size: 0.5rem; 
+    }
+
+    .table-container .table-header {
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem ;
+    }
+    
+    .large-image {
+        height: 100px !important;
+    }
+    
+    .table-container > img, .table-container .image-container > img {
+        padding: 1rem; 
+        width: 30px; 
+        height: 60px; 
+    }
 }
