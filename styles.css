@@ -26,7 +26,7 @@ body {
     margin-bottom: 10rem;
 }
 
-.table-container > span {
+.table-container>span {
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     padding-left: 10px;
@@ -34,7 +34,7 @@ body {
     font-size: 1rem;
 }
 
-.table-container > img {
+.table-container>img {
     height: 80px;
     width: 40px;
     padding: 2rem;
@@ -47,7 +47,7 @@ body {
     border-left: 1px solid black;
 }
 
-.table-container .image-container > img {
+.table-container .image-container>img {
     height: 80px;
     width: 40px;
     padding: 2rem;
@@ -66,26 +66,28 @@ body {
 /* Mobile styles */
 @media (max-width: 768px) {
     .table-container {
-        grid-template-columns: repeat(6, 1fr); 
+        grid-template-columns: repeat(6, 1fr);
     }
-    
-    .table-container > span, .table-container > img {
-        padding: 0.2rem; 
-        font-size: 0.5rem; 
+
+    .table-container>span,
+    .table-container>img {
+        padding: 0.2rem;
+        font-size: 0.5rem;
     }
 
     .table-container .table-header {
         font-size: 0.7rem;
-        padding-bottom: 0.5rem ;
+        padding-bottom: 0.5rem;
     }
-    
+
     .large-image {
         height: 100px !important;
     }
-    
-    .table-container > img, .table-container .image-container > img {
-        padding: 1rem; 
-        width: 30px; 
-        height: 60px; 
+
+    .table-container>img,
+    .table-container .image-container>img {
+        padding: 1rem;
+        width: 30px;
+        height: 60px;
     }
 }
