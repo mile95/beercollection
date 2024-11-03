@@ -30,7 +30,7 @@ fetch('data.json')
         <span>${beer.name}</span>
         <span>${beer.brewery}</span>
         <span>${beer.team}</span>
-        <span>${beer.extra}</span>
+        <span class="column-wide">${beer.extra}</span>
         <span><a href="${beer.references}" target="_blank">Reference</a></span>
         <div class="image-container">
           <img src="${beer.image}" class="${imageClass}">
