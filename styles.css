@@ -19,7 +19,7 @@ body {
 
 .table-container {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     border-top: 1px solid black;
     border-right: 1px solid black;
     margin-left: 50px;
@@ -74,7 +74,7 @@ body {
     }
 
     .table-container {
-        grid-template-columns: repeat(7, 1fr);
+        grid-template-columns: repeat(8, 1fr);
         margin-left: 10px;
         margin-right: 10px;
     }

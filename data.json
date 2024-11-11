@@ -6,7 +6,8 @@
     "extra": "Malmö FFs official support organization, MFF Support, in collaboration with Sibbarps Husbryggeri. The beer is a tribute to the heroes who took Malmö to the European Cup final in 1979",
     "references": "https://mffsupport.com/historien-om-79/",
     "image": "assets/malmo_1.png",
-    "class": "large"
+    "class": "large",
+    "obtained": "2024-11-11"
   },
   {
     "name": "Juventus Beer",
@@ -15,7 +16,8 @@
     "extra": "This is one of the few beers that is listed as an 'official' club beer.",
     "references": "https://juventusbeer.com/",
     "image": "assets/juventus_1.png",
-    "class": "small"
+    "class": "small",
+    "obtained": "2024-11-11"
   },
   {
     "name": "Napoli Beer",
@@ -24,7 +26,8 @@
     "extra": "Beer to celebrate the Serie A win 2022/23",
     "references": "https://www.napoli-store.com/birra-ufficiale-ssc-napoli/",
     "image": "assets/napoli_1.png",
-    "class": "small"
+    "class": "small",
+    "obtained": "2024-11-11"
   },
   {
     "name": "Hisingen Pilsner",
@@ -33,7 +36,8 @@
     "extra": "This beer was first named 'Guld 2022' since it was created to honor BK Häckens league win in 2022",
     "references": "https://www.billdale.se/hisingenpilsner",
     "image": "assets/hacken_1.png",
-    "class": "small"
+    "class": "small",
+    "obtained": "2024-11-11"
   },
   {
     "name": "GBG STATE OF MIND",
@@ -42,7 +46,8 @@
     "extra": "The supporters of IFK Göteborg made TIFO with the same motive as shown on this can before this beer was produced.",
     "references": "https://www.facebook.com/photo/?fbid=202898749152937&set=a.121515097291303",
     "image": "assets/goteborg_4.png",
-    "class": "small"
+    "class": "small",
+    "obtained": "2024-11-11"
   },
   {
     "name": "HELA STADENS LAGER",
@@ -51,7 +56,8 @@
     "extra": "IFK Göteborg is using the slogan 'hela stadens lag'",
     "references": "https://www.beernews.se/articles/nu-ska-ifk-supportrarna-starta-fantombryggeri/",
     "image": "assets/goteborg_3.png",
-    "class": "small"
+    "class": "small",
+    "obtained": "2024-11-11"
   },
   {
     "name": "ÄNGLA-PILS",
@@ -60,7 +66,8 @@
     "extra": "Tribute to the city of Gothenburg. IFK Göteborg is called änglarna hence 'ängla-pils'",
     "references": "https://www.beernews.se/articles/angla-pils-spikes-hyllningsol-till-goteborg/",
     "image": "assets/goteborg_2.png",
-    "class": "small"
+    "class": "small",
+    "obtained": "2024-11-11"
   },
   {
     "name": "GÖTTÄNNA",
@@ -69,7 +76,8 @@
     "extra": "The ex- IFK Göteborg and Liverpool player Glenn Hysén have been involved in creating this beer. He is also part of the motive on the can.",
     "references": "https://www.beernews.se/articles/nu-har-glenn-hysen-sitt-eget-ol/",
     "image": "assets/goteborg_1.png",
-    "class": "small"
+    "class": "small",
+    "obtained": "2024-11-11"
   },
   {
     "name": "GUNNERS ALE",
@@ -78,7 +86,8 @@
     "extra": "Danish brewery created this beer for an English team",
     "references": "https://midtfyns-bryghus.dk/vare/gunners-ale/",
     "image": "assets/arsenal_1.png",
-    "class": "large"
+    "class": "large",
+    "obtained": "2024-11-11"
   },
   {
     "name": "Preppens Pilsner",
@@ -87,6 +96,7 @@
     "extra": "Tribute to the football culture in general but the founder of the brewery is supporting GAIS hence the green/black can. Half of the profit of this beer is donated to the TIFO group of GAIS",
     "references": "https://www.facebook.com/brewhuslan/posts/idag-sl%C3%A4pper-vi-preppens-pilsner-denna-%C3%B6l-%C3%A4r-en-hyllning-till-dels-stilen-nordty/970266778431703/",
     "image": "assets/gais_1.png",
-    "class": "small"
+    "class": "small",
+    "obtained": "2024-11-11"
   }
 ]

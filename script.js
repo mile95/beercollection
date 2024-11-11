@@ -15,6 +15,7 @@ fetch('data.json')
         <div class="image-container">
           <img src="${beer.image}" class="${imageClass}">
         </div>
+        <span>${beer.obtained}</span>
       `;
     });
 
