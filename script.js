@@ -10,8 +10,12 @@ fetch('data.json')
         <span>${beer.name}</span>
         <span>${beer.brewery}</span>
         <span>${beer.team}</span>
-        <span class="column-wide">${beer.extra}</span>
-        <span><a href="${beer.references}" target="_blank">reference</a></span>
+        <span class="column-wide">${beer.extra}
+          <br><br>
+          <span>
+            <a href="${beer.references}" target="_blank">Reference</a>
+          </span>
+        </span>
         <div class="image-container">
           <img src="${beer.image}" class="${imageClass}">
         </div>

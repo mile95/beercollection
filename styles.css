@@ -32,7 +32,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    font-size: 1rem;
+    font-size: small;
 }
 
 .table-container>img {
@@ -55,13 +55,13 @@ body {
 }
 
 .table-container .table-header {
-    font-size: x-large;
     padding-bottom: 2rem;
+    font-weight: bold;
     border-bottom: 2px solid black;
 }
 
 .column-wide {
-    grid-column: span 2 / span 2;
+    grid-column: span 3 / span 3;
 }
 
 .large-image {
@@ -69,12 +69,8 @@ body {
 }
 
 @media (max-width: 768px) {
-    .header {
-        font-size: 0.5rem;
-    }
 
     .table-container {
-        grid-template-columns: repeat(8, 1fr);
         margin-left: 10px;
         margin-right: 10px;
     }
