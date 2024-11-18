@@ -24,6 +24,8 @@ body {
     border-right: 1px solid black;
     margin-left: 50px;
     margin-right: 50px;
+    overflow-y: auto;
+    margin-bottom: 50px;
 }
 
 .table-container>span {
@@ -35,27 +37,29 @@ body {
     font-size: small;
 }
 
-
 .image-container {
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
 
-.table-container .image-container > img {
+.table-container .image-container>img {
     height: 80px;
     width: 40px;
-    padding: 2rem;
     cursor: zoom-in;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
 .table-container .table-header {
-    padding-bottom: 2rem;
     font-weight: bold;
+    padding-bottom: 10px;
     border-bottom: 2px solid black;
 }
 
 .column-wide {
     grid-column: span 3 / span 3;
+    font-size: small;
 }
 
 .large-image {
