@@ -3,7 +3,9 @@ function fetchData() {
     .then(response => response.json())
     .then(data => {
       renderTable(data);
-      updateHeaderCount(data.length);
+      const total = data.length;
+      const obtained = data.filter(i => i.obtained).length;
+      updateHeaderCount(total, obtained);
       setupImagePopup();
     })
     .catch(error => console.error('Error fetching the JSON:', error));
@@ -14,27 +16,28 @@ function renderTable(data) {
 
   data.forEach(beer => {
     const imageClass = beer.class === 'large' ? 'large-image' : 'small-image';
+    const obtained = beer.obtained ? "obtained" : "non-obtained"
 
     tableContainer.innerHTML += `
-      <span>${beer.name}</span>
-      <span>${beer.brewery}</span>
-      <span>${beer.team}</span>
-      <span class="column-wide">${beer.extra}
+      <span class="${obtained}">${beer.name}</span>
+      <span class="${obtained}">${beer.brewery}</span>
+      <span class="${obtained}">${beer.team}</span>
+      <span class="${obtained} + column-wide">${beer.extra}
         <br><br>
         <span>
           <a href="${beer.references}" target="_blank">Reference</a>
         </span>
       </span>
-      <div class="image-container">
+      <div class="${obtained} + image-container">
         <img src="${beer.image}" class="${imageClass}" alt="${beer.name}" data-fullsize="${beer.image}">
       </div>
-      <span>${beer.obtained}</span>
+      <span class="${obtained}">${beer.obtained ? beer.obtained : 'N/A'}</span>
     `;
   });
 }
 
-function updateHeaderCount(count) {
-  document.getElementById('headerCount').innerText = `${count} beers collected`;
+function updateHeaderCount(total, obtained) {
+  document.getElementById('headerCount').innerText = `${obtained}/${total} beers collected`;
 }
 
 function setupImagePopup() {

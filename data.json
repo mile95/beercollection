@@ -12,7 +12,7 @@
   {
     "name": "Juventus Beer",
     "brewery": "El Original Srl.",
-    "team": "Juventus",
+    "team": "Juventus FC",
     "extra": "This is one of the few beers that is listed as an 'official' club beer.",
     "references": "https://juventusbeer.com/",
     "image": "assets/juventus_1.png",
@@ -82,7 +82,7 @@
   {
     "name": "GUNNERS ALE",
     "brewery": "TBA",
-    "team": "FC Arsenal",
+    "team": "Arsenal FC",
     "extra": "Danish brewery created this beer for an English team",
     "references": "https://midtfyns-bryghus.dk/vare/gunners-ale/",
     "image": "assets/arsenal_1.png",
